@@ -12,7 +12,7 @@
     "wiki-dev": "npx webpack src/wiki/wiki.js -o wiki/wiki.js --mode=development",
     "wiki": "npx webpack src/wiki/wiki.js -o wiki/wiki.js --mode=production",
     "local": "npm run build && rimraf -f docs && mkdir docs && cp dist/* docs && cp -r src/* docs && cp index.html docs && cp evolved.ico docs && cd docs && mkdir lib && cp ../lib/* lib && mkdir strings && cp ../strings/* strings && cd .. && servehere -c -d docs",
-    "localtest": "num run build && echo 'todo on the rest though'",
+    "localtest": "num run build && echo 'todo on the rest, though'",
     "wiki-less": "lessc -x src/wiki/wiki.less wiki/wiki.css"
   },
   "repository": {
